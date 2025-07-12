@@ -35,7 +35,7 @@ typedef struct s_node
 	bool			above_median;
 	bool			cheapest;
 	struct s_node	*target_node;
-	// struct s_node	*prev;
+	struct s_node	*prev;
 	struct s_node	*next;
 }	t_node;
 
